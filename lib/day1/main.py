@@ -31,9 +31,8 @@ def part_two():
         sub_target = DEFAULT_TARGET - n
         n2, n3 = find_pair(target=sub_target)
         if n2 and n3:
-            print n, n2, n3
             return n * n2 * n3
-            break
+
     return None
 
 print 'Part 1: ', part_one()
