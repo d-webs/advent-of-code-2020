@@ -5,7 +5,7 @@ Solutions to 2020 Advent of Code
 
 | Day | Stars | Language |
 |-----|-------|----------|
-| 1   | ⭐️⭐️    |          |
+| 1   | ⭐️⭐️    | Python   |
 | 2   | ❔❔    |          |
 | 3   | ❔❔    |          |
 | 4   | ❔❔    |          |
