@@ -9,16 +9,11 @@ with open(INPUT_FILE) as f:
     NUMBERS = [int(n) for n in f]
 
 def find_pair(numbers=NUMBERS, target=DEFAULT_TARGET):
-    n1 = None
-    n2 = None
     seen_values = set()
     for num in numbers:
-        n1 = num
-        n2 = target - num
-
-        if n2 in seen_values:
-            return n1, n2
-        seen_values.add(n1)
+        if target - num in seen_values:
+            return num, target - num
+        seen_values.add(num)
 
     return None, None
 
